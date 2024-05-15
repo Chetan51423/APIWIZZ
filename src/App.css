@@ -1,5 +1,10 @@
+
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -26,6 +31,65 @@
 
 .App-link {
   color: #61dafb;
+}
+#grid_N
+{
+  margin-top: 100px;
+}
+.grid
+{
+  height: 30px;
+  width: 30px;
+  border: 1px solid grey;
+  /* margin-top: 100px; */
+}
+
+
+
+
+.main-grid
+{
+  /* width: 600px; */
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+
+}
+.single-Grid
+{
+  height: 4px;
+  width: 4px;
+  border: 2px solid grey;
+  /* margin-top: 100px; */
+}
+
+.grid-row
+{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin: 50px; */
+  justify-content: center;
+  /* border: 3px solid yellow; */
+}
+
+.grid-input
+{
+  padding: 10px;
+  
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lable-input
+{
+  color: black;
+  font-size:x-large;
 }
 
 @keyframes App-logo-spin {
